@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Issues Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-top">
+        <div class="nav-left">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-repo color-fg-muted mr-2"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
+            ></path>
+          </svg>
+          <a href="#">facebook/<span class="hilight">react</span></a>
+          <span class="mark">Public</span>
+        </div>
+        <div class="nav-right">
+          <a href="#"><i class="fas fa-bell"></i>Notification</a>
+          <a href="#"><i class="fas fa-star"></i>Star</a>
+          <a href="#"><i class="fas fa-code-branch"></i>Fork</a>
+        </div>
+      </div>
+      <div class="nav-buttom">
+        <a href="#"><i class="fas fa-code"></i>Code</a>
+        <a class="issue" href="#"
+          ><i class="far fa-circle"></i>Issue
+          <span class="mark mark-issue">625</span></a
+        >
+        <a href="#"
+          ><i class="fas fa-code-branch"></i>Pull request<span
+            class="mark mark-issue"
+            >208</span
+          ></a
+        >
+        <a href="#"><i class="far fa-play-circle"></i>Action</a>
+        <a href="#"><i class="fas fa-dice-three"></i>Project</a>
+        <a href="#"><i class="fas fa-book-open"></i>Wiki</a>
+        <a href="#"><i class="fas fa-shield-alt"></i>Security</a>
+        <a href="#"><i class="fas fa-chart-line"></i>Insights</a>
+      </div>
+    </nav>
+    <main>
+      <section class="issues-section">
+        <div class="issue-heading">
+          <div class="issue-left">
+            <p class="issue-open">
+              <i class="fas fa-record-vinyl"></i>625 <span>Open</span>
+            </p>
+            <p class="issue-closed">
+              <i class="fas fa-check"></i> <span>10,104 Closed</span>
+            </p>
+          </div>
+          <div class="issue-right">
+            <a href="#">Author <i class="fas fa-caret-down"></i></a>
+            <a href="#">Label <i class="fas fa-caret-down"></i></a>
+            <a href="#">Projects <i class="fas fa-caret-down"></i></a>
+            <a href="#">Milestones <i class="fas fa-caret-down"></i></a>
+            <a href="#">Assignee <i class="fas fa-caret-down"></i></a>
+            <a href="#">Short <i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:[DevTools Bug]: They make Firefox's debugger unusable (can't
+                continue or step over)
+              </a>
+
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Status"> Status: Unconfirmed</a>
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22828 opened 6 hours ago by x-yuri</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right"></div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Timeline view search
+              </a>
+
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+
+              <div>
+                <span class="commet-issue"
+                  >#22776 opened 9 days ago by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <img
+              src="https://avatars.githubusercontent.com/u/58851816?s=40&v=4"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Some one is changing the state variable from the react
+                devlopment tool in production build?
+              </a>
+
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Status"> Status: Unconfirmed</a>
+
+              <div>
+                <span class="commet-issue"
+                  >#22758 opened 10 days ago by surajit25</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right"></div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Consolidate component stack and (DEV only) element __source
+              </a>
+
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Discussion"> Type: Discussion</a>
+              <div>
+                <span class="commet-issue"
+                  >#22738 opened 15 days ago by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <i class="far fa-comment-alt"></i>
+            <span>35</span>
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Timeline: Nested update warning logic flaw
+              </a>
+
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Scheduling margin">
+                Component: Scheduling Profiler</a
+              >
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22731 opened 16 days ago by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right"></div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:[DevTools Bug]: Chrome extension's settings reset after
+                every reload
+              </a>
+
+              >
+              <a href="#" class="Status margin"> Status: Unconfirmed</a>
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22731 opened 16 days ago by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right"></div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:[DevTools Bug]: Components without own dimensions not
+                highlighted at all
+              </a>
+
+              >
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Status margin"> Status: Unconfirmed</a>
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22703 opened 20 days ago by Andarist</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <i class="far fa-comment-alt"></i>
+            <span>2</span>
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Navigating to a new tab with DevTools open does not load
+                Components tree
+              </a>
+
+              >
+              <a href="#" class="Status margin"> Status: Unconfirmed</a>
+
+              <div>
+                <span class="commet-issue"
+                  >#22731 opened 16 days ago by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <img
+              src="https://avatars.githubusercontent.com/u/1271509?s=40&v=4"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:devtools: "What caused this update?" when a lazy component
+                resolves
+              </a>
+
+              >
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Status margin"> Status: Unconfirmed</a>
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22529 opened on 8 Oct by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <i class="far fa-comment-alt"></i>
+            <span>5</span>
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:Enable new console override behavior for React Native
+              </a>
+
+              >
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+
+              <div>
+                <span class="commet-issue"
+                  >#22316 opened on 14 Sep by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <i class="far fa-comment-alt"></i>
+            <span>3</span>
+          </div>
+        </div>
+        <div class="single-issue">
+          <div class="single-issue-left">
+            <div class="bug-single-list">
+              <a class="issue-main">
+                <i class="fas fa-record-vinyl"></i>
+                Bug:[DevTools Bug]: React Profiler: Flamegraph section overflows
+                and not resizable
+              </a>
+
+              >
+              <a href="#" class="Component margin">
+                Component: Developer Tools</a
+              >
+              <a href="#" class="Status margin"> Status: Unconfirmed</a>
+              <a href="#" class="Bug"> Type: Bug</a>
+              <div>
+                <span class="commet-issue"
+                  >#22529 opened on 8 Oct by bvaughn</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="single-issuel-right">
+            <i class="far fa-comment-alt"></i>
+            <span>1</span>
+          </div>
+        </div>
+      </section>
+
+      <div>
+        <p class="before-footer">
+          <i class="fas fa-lightbulb"></i> <span>ProTip!</span> Type g p on any
+          issue or pull request to go back to the pull request listing page.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <i class="fab fa-github"></i>
+        © 2021 GitHub, Inc.
+      </div>
+      <a href="#"> Terms </a>
+      <a href="#"> Privacy </a>
+      <a href="#"> Security </a>
+      <a href="#"> Status </a>
+      <a href="#"> Docs </a>
+      <a href="#"> Contact GitHub </a>
+      <a href="#"> Pricing </a>
+      <a href="#"> API </a>
+      <a href="#"> Training </a>
+      <a href="#"> Blog </a>
+      <a href="#"> About </a>
+    </footer>
+  </body>
+</html>
